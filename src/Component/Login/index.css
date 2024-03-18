@@ -1,0 +1,132 @@
+.container {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.left {
+  width: 40vw;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  background-color: #f5f5f5;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-head {
+  margin: auto;
+  font-size: 72px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 87.77px;
+  font-family: "Montserrat";
+}
+.login-box {
+  width: 35%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+.head-1 {
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 700;
+  size: 36px;
+  line-height: 43.88px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.para-1 {
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-family: "Lato";
+}
+.google-btn {
+    background-color: #ffffff;
+    padding: 5px 10px;
+    width: 55%;
+    border-radius: 10px;
+    height: 30px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  font-family: "Montserrat";
+  border: none;
+  color: #858585;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.google-logo{
+    width: 14px;
+    height: 14px;
+}
+.log-form{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.box{
+    width: 100%;
+}
+.input-box{
+    width: 90%;
+    margin-top: 7px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    color: #000000;
+    font-weight: 400;
+    border:none;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: "Lato";
+}
+.labels{
+    align-self: flex-start;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: "Lato";
+    color: #000000;
+}
+.forgot{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: "Lato";
+    margin: 10px 0px;
+} a{
+    color: #346BD4;
+    text-decoration: none;
+}
+.submit-btn
+{line-height: 19.2px;
+    padding:5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.register{
+    align-self: center;
+}a{
+    margin-left: 6px;
+}
